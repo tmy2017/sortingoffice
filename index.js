@@ -22,7 +22,7 @@ module.exports = async (req, res) => {
   let url = query.url || null
 
   if (!url) {
-    res.end('You must specify a forwarding url')
+    res.end('yoyo You must specify a forwarding url')
   }
 
   let newQuery = query
